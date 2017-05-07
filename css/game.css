@@ -1,0 +1,85 @@
+html, body, h1, div {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #121B1F;
+}
+
+
+.game-border {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+}
+
+h1 {
+  color: red;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.wrapper-left {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#ai {
+  height: 30px;
+  padding: 5px;
+  color: white;
+}
+
+#human {
+  height: 30px;
+  padding: 5px;
+  color: white;
+}
+
+#game {
+  border-top: 1px solid white;
+  align-items: center;
+}
+
+.scoreboard {
+  /*box-sizing: border-box;*/
+  text-align: left;
+  border: 5px solid white;
+  margin-bottom: 20px;
+}
+
+.instructions {
+  height: 60px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+.winner {
+  border: 1px solid red;
+  height: 10px;
+}
