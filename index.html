@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="css/game.css">
+     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+     <script src="lib/bundle.js"></script>
+    <title>Pong</title>
+  </head>
+  <body>
+    <div className="info">
+
+    </div>
+    </div>
+    <div class="game-border">
+      <div class="wrapper-left">
+        <h1>Pong</h1>
+        <canvas height='500' width='500' id="game"></canvas>
+      </div>
+      <div class="wrapper-right">
+        <div class="scoreboard">
+          <h1>Score</h1>
+          <div id="ai">Human:</div>
+          <div id="human">Computer:</div>
+        </div>
+
+        <div class="item2">
+          <div class="instructions">
+            Press enter to play!
+            use Up or Down arrows to move
+          </div>
+
+          <div id="winner">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
