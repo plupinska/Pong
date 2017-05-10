@@ -80,6 +80,36 @@ h1 {
  text-align: center;
 }
 
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  width: 100vw;
+  list-style: none;
+}
+
+#pl {
+  width: 60px;
+  height: 60px;
+}
+
+.links * {
+  /*border: 1px solid red;*/
+  width: 50px;
+  height: 50px;
+}
+
+.links:hover {
+  cursor: pointer;
+}
+
+span {
+  display: inline-block;
+}
+
+
+
 .scoreboard {
   /*box-sizing: border-box;*/
   text-align: left;
