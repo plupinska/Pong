@@ -7,7 +7,7 @@ Pong is an arcade video game based on the sport of table tennis. My interpretati
 
 ### Snapshot
 
-![Pong](/Pong.png)
+![Pong](/game.png)
 
 ### Architecture and Technologies
 
