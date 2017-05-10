@@ -9,12 +9,7 @@ Pong is an arcade video game based on the sport of table tennis. My interpretati
 
 ![Pong](/Pong.png)
 
-
-### Functionality and MVP
-- [ ] AI Player
-- [ ] Arcade Sounds
-
 ### Architecture and Technologies
 
-- This game is built with javaScript and uses the Canvas API for rendering the game in the browser.
-- An AI pl
+- This game is built with JavaScript and uses the Canvas API for rendering the game in the browser.
+- An AI player calculates the position of the ball and moves its paddle in that direction, in hopes of beating its human competitor. Don't worry, the AI has the same speed restriction as you do, good luck in beating him!
