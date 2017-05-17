@@ -8,11 +8,13 @@ html, body, h1, div {
 body {
   box-sizing: border-box;
   align-items: center;
+  justify-content: center;
   padding: 20px;
   display: flex;
   flex-direction: column;
   font-family: 'Press Start 2P', cursive;
   background-color: #121B1F;
+  height: 100vh;
 }
 
 .rules {
