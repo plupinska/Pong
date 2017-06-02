@@ -21,6 +21,7 @@
   align-items: center;
   width: 40%;
   max-height: 60%;
+  min-height: 320px;
   background-color: #5A879A;
   font-size: 2vh;
 }
@@ -34,10 +35,12 @@
 
 #button-container {
   width: 100%;
+  min-height: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #5A879A;
 }
 
 .title-inst {
